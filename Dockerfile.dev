@@ -1,6 +1,6 @@
 #specify a base image
 
-FROM node:alpine
+FROM node:11.10.1-alpine
 
 # install some dependencies
 WORKDIR '/app'
