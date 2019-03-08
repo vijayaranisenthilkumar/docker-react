@@ -6,4 +6,4 @@ before_install:
  - docker build -t vijayaranisenthilkumar/docker-react -f Dockerfile.dev --build-arg HTTP_PROXY=http://seproxynlb.hm.com:8080 --build-arg HTTPS_PROXY=http://seproxynlb.hm.com:8080  .
  
  script:
-  - docker run  vijayaranisenthilkumar/docker-react npm run test -- --coverage
+  - docker run vijayaranisenthilkumar/docker-react npm run test -- --coverage
